@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>FORMS in HTML</h1>
+    <form action="/sumit.php">
+        <!-- Text input For Name  -->
+        <div>
+            <label for="Name ">Name</label>
+            <input id="Name" type="text" placeholder="Enter Name" required>
+
+        </div>
+
+        <!-- Phone Input  -->
+
+        <div>
+            <label for="ph ">Phone No.</label>
+            <input id="ph" type="tel" placeholder="Enter Phone No." required>
+        </div>
+
+        <!-- Email input  -->
+
+        <div>
+            <label for="email ">E-Mail.</label>
+            <input id="email" type="email" placeholder="Enter E-Mail" required>
+        </div>
+
+        <!-- Password Input  -->
+
+        <div>
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Enter Password" required>
+        </div>
+
+        <!-- Date input  -->
+
+        <div>
+            <label for="dob ">DOB</label>
+            <input id="dob" type="date" placeholder="Enter DOB" required>
+        </div>
+
+        <!-- Dropdown (select input) for Gender  -->
+        <div>
+            <label for="gender ">Gender</label>
+            <select name="" id="gender" required>
+                <option value="" disabled selected>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Feamle</option>
+                <option value="others">Other</option>
+
+            </select>
+        </div>
+
+        <!-- Radio buttons for Subscription Plan  -->
+        <div>
+            <p>Subscription Plan</p>
+            <input id="basic" type="radio" name="Subscription" value="basic">
+            <label for="basic">Basic</label>
+
+            <input id="premium" type="radio" name="Subscription" value="premium">
+            <label for="premium">Premium</label>
+
+            <input id="vip" type="radio" name="Subscription" value="vip">
+            <label for="vip">VIP</label>
+        </div>
+
+        <!-- Checkbox For Agreeing to terms  -->
+        <div>
+            <input id="terms" type="checkbox" required>
+            <label for="terms">I Agree This Terms And Condition</label>
+        </div>
+
+        <!-- Textarea for comments  -->
+
+        <div>
+            <label for="comments">Comments</label>
+            <textarea    id="comments" placeholder="Enter the Comments" rows="4"></textarea>
+        </div>
+
+        <!-- Sumit Button  -->
+        <div>
+            <button type="submit">Sumit</button>
+        </div>
+    </form>
+    <!-- Form ends here  -->
+
+</body>
+
+</html>
