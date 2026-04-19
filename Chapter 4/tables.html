@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables OF HTML</title>
+    <style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #f4f4f4;
+        padding: 40px;
+        text-align: center;
+    }
+
+    h1 {
+        color: #2c3e50;
+        margin-bottom: 30px;
+    }
+
+    table {
+        width: 90%;
+        max-width: 800px;
+        margin: auto;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        
+        overflow: hidden;
+    }
+
+    thead {
+        background-color: #3498db;
+        color: white;
+    }
+
+    th, td {
+        padding: 15px 20px;
+        border : 2px solid black;
+        text-align: left;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tbody tr:hover {
+        background-color: #dff0fc;
+        cursor: pointer;
+    }
+
+    th {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+
+    td {
+        font-size: 1rem;
+        color: #333;
+    }
+
+    @media (max-width: 600px) {
+        table, th, td {
+            font-size: 0.9rem;
+        }
+    }
+</style>
+
+
+</head>
+
+<body>
+    <h1>Tables OF HTML</h1>
+    <table>
+        <!-- Head of the Table  -->
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+
+
+            </tr>
+        </thead>
+
+        <!-- Body of The Table  -->
+        <tbody>
+            <tr>
+                <td>Shivam </td>
+                <td>Software Devloper</td>
+                <td>$1000</td>
+            </tr>
+
+             <tr>
+                <td>Santanu</td>
+                <td>Software Assistant</td>
+                <td>$500</td>
+            </tr>
+
+             <tr>
+                <td>Shivraj</td>
+                <td>Backend Devloper</td>
+                <td>$1000</td>
+            </tr>
+
+             <tr>
+                <td>Shivratan</td>
+                <td>Full Stack Devloper</td>
+                <td>$5000</td>
+            </tr>
+
+             <tr>
+                <td colspan="1">Thank</td>
+                <td colspan="2">You</td>
+            </tr>
+
+
+            
+        </tbody>
+    </table>
+</body>
+
+</html>
