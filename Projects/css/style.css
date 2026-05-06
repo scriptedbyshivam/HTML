@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: url('../Image/Photo1.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+
+header {
+    background-color: rgba(220, 20, 60, 0.95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-title img {
+    height: 50px;
+    border-radius: 5px;
+    transform: translate(330px, 0px);
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header ul li a:hover {
+    color: #ffc1c1;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.search-form select,
+.search-form button {
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-form select {
+    background-color: white;
+    color: #333;
+}
+
+.search-form button {
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-form button:hover {
+    background-color: #a80000;
+}
+
+
+.categories {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.categories h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.category {
+    background-color: crimson;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+
+.how-it-works {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.how-it-works h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.how-it-works ol {
+    list-style-position: inside;
+    font-size: 1.2rem;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(220, 20, 60, 0.95);
+    font-weight: bold;
+    color: white;
+}
